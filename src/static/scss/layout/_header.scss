@@ -1,0 +1,45 @@
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 99;
+    border-bottom:1px solid #ffdc00;
+    &.scroll {
+        background-color: #ffdc00;
+        .inner {
+            h1 {
+                a {
+                color:#fff;
+                }
+            }
+            nav {
+                a {
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        height: 80px;
+        h1 {
+            a {
+                font-weight: 700;
+                font-size:30px;
+                color:#ffdc00;
+            }
+        }
+        nav {
+            a {
+                margin:0 15px;
+                font-size:25px;
+                color:#ffdc00;
+            }
+        }
+    }
+}
