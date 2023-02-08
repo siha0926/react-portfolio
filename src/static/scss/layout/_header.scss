@@ -14,7 +14,7 @@ header {
                 }
             }
             nav {
-                a {
+                button {
                     color:#fff;
                 }
             }
@@ -35,10 +35,28 @@ header {
             }
         }
         nav {
-            a {
+            button {
                 margin:0 15px;
                 font-size:25px;
                 color:#ffdc00;
+                &:nth-child(2) {
+                    &.active {
+                        color:#499659;
+                    }
+                }
+                &:nth-child(3) {
+                    &.active {
+                        color:#00b5ff;
+                    }
+                }
+                &:nth-child(4) {
+                    &.active {
+                        color:#0d0d0d;
+                    }
+                }
+                &.active {
+                    font-weight: 700;
+                }
             }
         }
     }

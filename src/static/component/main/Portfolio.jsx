@@ -53,15 +53,6 @@ import { IMG_FST,
     IMG_CBT } from '../../images/'
 
 const Portfolio = () => {
-    // const tabChange = () => {
-    //     document.querySelector(".nav button").classList.remove("active");
-    //     Element.current.classList.add("active");
-    //     // document.querySelector("li").style.display = "none";
-    //     // document.getElementsByClassName("y" + year).style.display = "block";
-    // }
-    // useEffect(() => {
-    //     document.addEventListener('click', tabChange)
-    // }, []);
     return (
         <div className='portfolio'>
             <h2>Portfolio</h2>
