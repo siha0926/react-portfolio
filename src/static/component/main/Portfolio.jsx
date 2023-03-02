@@ -816,13 +816,13 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="http://metaverse.elpark.co.kr/" rel="noopener noreferrer">
+                    <a href="/" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_ELLIPARK} alt="" />
                         </div>
                         <div className="info">
                             <dl>
-                                <dt>엘리파크 <span>(기업사이트)</span></dt>
+                                <dt>엘리파크 <span>(기업사이트 - <em>폐쇄</em>)</span></dt>
                                 <dd title='진행기간'>2022.08~2022.12</dd>
                                 <dd>앱퍼블리싱 100%</dd>
                                 <dd title="Skill&Libraries"><span>REACT NATIVE</span><span>HTML</span><span>CSS</span><span>JS</span></dd>
