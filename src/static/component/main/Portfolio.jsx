@@ -1,56 +1,60 @@
 import React from 'react';
-import { IMG_FST,
-    IMG_POWERPLUS,
-    IMG_SALLYGEN,
-    IMG_LAW,
-    IMG_UVPOT,
-    IMG_BOILER_PC,
-    IMG_BOILER_MOBILE,
-    IMG_LEBATON,
-    IMG_EEVEN_PC,
-    IMG_EEVEN_MOBILE,
-    IMG_TNP,
-    IMG_ZENTECH,
-    IMG_INTOCNS,
-    IMG_GRYPHONTEA,
-    IMG_LA_VIE_EN_ROSE,
-    IMG_DOBONGGU_CENTER,
-    IMG_FEELWARE,
-    IMG_HUVIS,
-    IMG_JAMSIL,
-    IMG_CHENGEORAM,
-    IMG_ON_MARKET,
-    IMG_MY_MARKET,
-    IMG_PARTSMALL,
-    IMG_ONSURE_PC,
-    IMG_ONSURE_MOBILE,
-    IMG_CELLO_PC,
-    IMG_CELLO_MOBILE,
-    IMG_PEOPLE,
-    IMG_EVERYAIR, 
-    IMG_DNP, 
-    IMG_PO,
+import {
     IMG_5GX_01,
     IMG_5GX_02,
-    IMG_ZUTOPIA,
+    IMG_ANSUNG,
+    IMG_ARMY_01,
+    IMG_ARMY_02,
+    IMG_BOILER_MOBILE,
+    IMG_BOILER_PC,
+    IMG_CBT,
+    IMG_CELLO_MOBILE,
+    IMG_CELLO_PC,
+    IMG_CHENGEORAM,
+    IMG_CUCKOO,
+    IMG_DNP,
+    IMG_DOBONGGU_CENTER,
+    IMG_EEVEN_MOBILE,
+    IMG_EEVEN_PC,
+    IMG_EL,
+    IMG_ELLIPARK,
+    IMG_ELLISPACE,
+    IMG_EVERYAIR,
+    IMG_FEELWARE,
+    IMG_FST,
     IMG_FUTURES,
+    IMG_GONG,
+    IMG_GONGSSEL,
+    IMG_GRYPHONTEA,
+    IMG_HUVIS,
+    IMG_INTOCNS,
+    IMG_JAMSIL,
+    IMG_LA_VIE_EN_ROSE,
+    IMG_LAW,
+    IMG_LEBATON,
+    IMG_MEGAJOB,
+    IMG_MY_MARKET,
+    IMG_NFT_T,
+    IMG_NGBR,
+    IMG_ON_MARKET,
+    IMG_ONSURE_MOBILE,
+    IMG_ONSURE_PC,
+    IMG_PARTSMALL,
+    IMG_PEOPLE,
+    IMG_PO,
+    IMG_POWERPLUS,
+    IMG_SALLYGEN,
+    IMG_Showindow,
+    IMG_Showindow_cate,
+    IMG_SOBANG,
+    IMG_SOBANGCAMPUS,
     IMG_STOCK,
     IMG_THANK,
-    IMG_CUCKOO,
-    IMG_GONG,
-    IMG_SOBANG,
-    IMG_ARMY_01,
-    IMG_GONGSSEL,
-    IMG_SOBANGCAMPUS,
-    IMG_ARMY_02,
-    IMG_ANSUNG,
-    IMG_NGBR,
-    IMG_MEGAJOB,
-    IMG_EL,
-    IMG_ELLISPACE,
-    IMG_ELLIPARK,
-    IMG_NFT_T,
-    IMG_CBT } from '../../images/'
+    IMG_TNP,
+    IMG_UVPOT,
+    IMG_ZENTECH,
+    IMG_ZUTOPIA
+} from '../../images/';
 
 const Portfolio = () => {
     return (
@@ -128,7 +132,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://lebaton.co.kr/mobile/ */}
                         <div className="img">
                             <img src={IMG_LEBATON} alt="" />
@@ -144,7 +148,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://tnpchemical.com/ */}
                         <div className="img">
                             <img src={IMG_TNP} alt="" />
@@ -175,7 +179,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://intocns.webmoa21.co.kr/kr/ */}
                         <div className="img">
                             <img src={IMG_INTOCNS} alt="" />
@@ -251,7 +255,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://eeven.webmoa21.co.kr/?device=pc */}
                         <div className="img">
                             <img src={IMG_EEVEN_PC} alt="" />
@@ -267,7 +271,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://eeven.webmoa21.co.kr/?device=mobile */}
                         <div className="img">
                             <img src={IMG_EEVEN_MOBILE} alt="" />
@@ -328,7 +332,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://huvisglobal.com/kr/index.asp */}
                         <div className="img full">
                             <img src={IMG_HUVIS} alt="" />
@@ -359,7 +363,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_CHENGEORAM} alt="" />
                         </div>
@@ -374,7 +378,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_ON_MARKET} alt="" />
                         </div>
@@ -389,7 +393,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_MY_MARKET} alt="" />
                         </div>
@@ -404,7 +408,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img full">
                             <img src={IMG_PARTSMALL} alt="" />
                         </div>
@@ -449,7 +453,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.cellologistics.com/cellosq/web/pc/html/eng/main.html */}
                         <div className="img full">
                             <img src={IMG_CELLO_PC} alt="" />
@@ -465,7 +469,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.cellologistics.com/cellosq/web/mobile/html/eng/main.html */}
                         <div className="img">
                             <img src={IMG_CELLO_MOBILE} alt="" />
@@ -481,7 +485,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.cellologistics.com/cellosq/web/mobile/html/eng/main.html */}
                         <div className="img full">
                             <img src={IMG_PEOPLE} alt="" />
@@ -497,7 +501,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.every-air.com/portal/page/camp/pc/index.html */}
                         <div className="img full">
                             <img src={IMG_EVERYAIR} alt="" />
@@ -513,7 +517,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_DNP} alt="" />
                         </div>
@@ -528,7 +532,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_PO} alt="" />
                         </div>
@@ -543,7 +547,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_5GX_01} alt="" />
                         </div>
@@ -558,7 +562,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_5GX_02} alt="" />
                         </div>
@@ -573,7 +577,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_ZUTOPIA} alt="" />
                         </div>
@@ -588,7 +592,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.futureson.net/index.asp */}
                         <div className="img">
                             <img src={IMG_FUTURES} alt="" />
@@ -604,7 +608,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* https://www.sstock.net/index.asp */}
                         <div className="img full">
                             <img src={IMG_STOCK} alt="" />
@@ -620,7 +624,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         {/* http://www.thankyoubaek.com/ */}
                         <div className="img full">
                             <img src={IMG_THANK} alt="" />
@@ -636,7 +640,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img full">
                             <img src={IMG_CUCKOO} alt="" />
                         </div>
@@ -816,7 +820,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img">
                             <img src={IMG_ELLIPARK} alt="" />
                         </div>
@@ -831,13 +835,14 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://nft-t.io/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
+                    {/* https://nft-t.io/ */}
                         <div className="img full">
                             <img src={IMG_NFT_T} alt="" />
                         </div>
                         <div className="info">
                             <dl>
-                                <dt>NFT 풀페이지 <span>(기업사이트)</span></dt>
+                                <dt>NFT 풀페이지 <span>(기업사이트 - <em>폐쇄</em>)</span></dt>
                                 <dd title='진행기간'>2022.12.16~2022.12.23</dd>
                                 <dd>반응형 웹퍼블리싱 100%</dd>
                                 <dd title="Skill&Libraries"><span>REACT</span><span>HTML</span><span>CSS</span><span>JS</span></dd>
@@ -846,7 +851,7 @@ const Portfolio = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/" rel="noopener noreferrer">
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
                         <div className="img full">
                             <img src={IMG_CBT} alt="" />
                         </div>
@@ -860,7 +865,36 @@ const Portfolio = () => {
                         </div>
                     </a>
                 </li>
-                
+                <li>
+                    <a href="javascript:alert('폐쇄되었습니다.');" rel="noopener noreferrer">
+                        <div className="img full">
+                            <img src={IMG_Showindow} alt="" />
+                        </div>
+                        <div className="info">
+                            <dl>
+                                <dt>쑈윈도 이전버전 <span>(기업사이트 - <em>폐쇄</em>)</span></dt>
+                                <dd title='진행기간'>2023.04~2024.07</dd>
+                                <dd>pc / mo 유지보수 및 기획전작업</dd>
+                                <dd title="Skill&Libraries"><span>HTML</span><span>CSS</span><span>JS</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://newshowindow.cafe24.com/" rel="noopener noreferrer">
+                        <div className="img full">
+                            <img src={IMG_Showindow_cate} alt="" />
+                        </div>
+                        <div className="info">
+                            <dl>
+                                <dt>쑈윈도 카페24 <span>(기업사이트 - <em>폐쇄</em>)</span></dt>
+                                <dd title='진행기간'>2024.06.26~2024.08.26</dd>
+                                <dd>반응형 웹퍼블리싱 50%</dd>
+                                <dd title="Skill&Libraries"><span>카페24</span><span>HTML</span><span>CSS</span><span>JS</span></dd>
+                            </dl>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
     );
